@@ -1,2 +1,1 @@
-# get_KNOWLEDGE
-TO KNOWLEDGE (Lucy)
+![aaaaa](./resources/jasonzhang2.jpeg)
