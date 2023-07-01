@@ -12,18 +12,19 @@
     window.$docsify = {
       coverpage: true,
 
-      
+      onlyCover: false,
       loadSidebar: true,
-
-      subMaxLevel: 2
-
-
-
+      loadNavbar: true,
+      subMaxLevel: 2,
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+      auto2top: true,
+      name: 'my class room',
+      search: 'auto', // 默认值
      }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-
- <div id="app">加载中</div>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+ 
 </body>
 
 

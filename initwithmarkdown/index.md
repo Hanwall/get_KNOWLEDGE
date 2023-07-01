@@ -4,8 +4,11 @@
 
 ## 数学
 
+[数学](./initwithmarkdown/math.md)
+
 
 ## 语文
+[语文](./initwithmarkdown/chinese.md)
 
-
-## 数学
+## 英语
+[数学](./initwithmarkdown/english.md)
