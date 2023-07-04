@@ -13,22 +13,20 @@
  
   <script>
     window.$docsify = {
-      themeColor: '#3F51B5',
-      coverpage: true,//开启首页
-      coverpage: '_coverpage',
-      loadSidebar: true,//加载侧边栏
+      coverpage: '_coverpage.md',//开启首页
+      onlyCover: true,//只展示首页
+      loadSidebar: '_sidebar.md',//加载侧边栏
+      homepage: 'index.md',// README.md
+      notFoundPage: '404.md',
       maxLevel: 3,//
       subMaxLevel: 2 ,//显示目录
 
-      loadSidebar: '_sidebar.md',
-      homepage: 'index.md',// README.md
-      notFoundPage: '404.md',
-
+      themeColor: '#3F51B5',
       name: "我的课程目录",//不写下面LOGO不显示
       logo: '/resources/logo/icon.svg',
 
       auto2top: true,
-      onlyCover: true,
+
       topMargin: 60,//
       
       search: {
