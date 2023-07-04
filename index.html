@@ -13,7 +13,7 @@
  
   <script>
     window.$docsify = {
-
+      themeColor: '#3F51B5',
       coverpage: true,//开启首页
       coverpage: '_coverpage',
       loadSidebar: true,//加载侧边栏
@@ -28,7 +28,7 @@
       logo: '/resources/logo/icon.svg',
 
       auto2top: true,
-
+      onlyCover: true,
       topMargin: 60,//
       
       search: {
@@ -101,7 +101,7 @@
          minutes - 0-59之间的整数，做为date对象的分钟数
          seconds - 0-59之间的整数，做为date对象的秒数
          microseconds - 0-999之间的整数，做为date对象的毫秒数 */
-         var t1 = Date.UTC(2023, 07, 03, 23, 59, 59); //北京时间2019-06-21 22:22:22 //
+         var t1 = Date.UTC(2023, 07, 04, 23, 59, 59); //
          var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
          var diff = t2 - t1;
          var diffYears = Math.floor(diff / years);
