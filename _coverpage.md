@@ -19,7 +19,7 @@
 
 <!-- 按钮跳转 -->
 
-[HELLO! I AM JASON ZHANG ](./README.md)
+[HELLO! I AM JASON ZHANG ](./index.md)
 
 <!-- 背景图片 -->
 
