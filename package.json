@@ -2,5 +2,8 @@
   "scripts": {
     "docs:dev": "vuepress dev doc",
     "docs:build": "vuepress build doc"
+  },
+  "dependencies": {
+    "vue-template-compiler": "^2.7.14"
   }
 }
