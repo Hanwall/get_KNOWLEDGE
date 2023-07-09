@@ -6,27 +6,18 @@ module.exports = {
     //logo: '../resources/logo/loading.gif',
 
     nav: [
-      { text: '方法论', link: '/markdown/methodology/' },
-      { text: '逻辑思维', link: '/markdown/logic&thinking/' },
+      { text: '方法论', link: '/markdown/1methodology/' },
+      { text: '逻辑思维', link: '/markdown/2logic&thinking/' },
       { text: '学科知识',
         items: [
-          { text: '主课', items: [{ text: '语文', link: '/markdown/skill/' },{ text: '数学', link: '/markdown/skill/' },{ text: '英语', link: '/markdown/skill/' }] },
-          { text: '理科', items: [{ text: '物理', link: '/markdown/skill/' },{ text: '化学', link: '/markdown/skill/' },{ text: '生物', link: '/markdown/skill/' }] },
-          { text: '文科', items: [{ text: '政治', link: '/markdown/skill/' },{ text: '历史', link: '/markdown/skill/' },{ text: '地理', link: '/markdown/skill/' }] }
+          { text: '主课', items: [{ text: '语文', link: '/markdown/3subject/1mianclass/chinese/' },{ text: '数学', link: '/markdown/3subject/1mianclass/math/' },{ text: '英语', link: '/markdown/3subject/1mianclass/english/' }] },
+          { text: '理科', items: [{ text: '物理', link: '/markdown/3subject/2science/physics/' },{ text: '化学', link: '/markdown/3subject/2science/chemistry/' },{ text: '生物', link: '/markdown/3subject/2science/biology/' }] },
+          { text: '文科', items: [{ text: '政治', link: '/markdown/3subject/3arts/politics/' },{ text: '历史', link: '/markdown/3subject/3arts/history/' },{ text: '地理', link: '/markdown/3subject/3arts/geography/' }] }
         ]
       },
-      { text: '技能', link: '/markdown/skill/' },
-      { text: '其它', link: '/markdown/others/' },
-      {
-        text: '游戏',
-       
-        items: [
-          { text: '游戏', link: '/language/chinese/' },
-          { text: '音乐', link: '/language/chinese/' },
-          { text: '画画', link: '/language/chinese/' },
-          { text: '运动', link: '/language/japanese/' }
-        ]
-      }
+      { text: 'IT', link: '/markdown/4IT/' },
+      { text: '其它', link: '/markdown/5others/' }
+      
     ],
 
     sidebar: 'auto',

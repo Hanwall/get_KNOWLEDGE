@@ -4,7 +4,7 @@ heroImage: /logo/loading.gif
 heroText: WELCOME TO MY CALSS ROOM
 tagline: 
 actionText: GETTING START
-actionLink: /markdown/methodology/
+actionLink: /markdown/1methodology/
 features:
 - title: HELLO
   details: I AM JASON ZHANG
