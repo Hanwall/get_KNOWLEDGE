@@ -1,41 +1,74 @@
-module.exports = {
-  title: '我的课堂',
-  description: 'hhhhh',
+import { defineConfig } from 'vuepress/config'
+import {
+  
+  Sidebar4Project,
+ 
+  NavItems4Project
+} from './config/index'
+
+export default defineConfig(ctx => ({
+  //
+  theme: '@vuepress/vue',
+  dest: '../../vuepress',
+
+  //首页title，描述
+  title: '我的教室',
+  description: 'Just playing around',
+  //如果你的网站会被部署到一个非根路径，你将需要在 .vuepress/config.js 中设置 base
   base: '/get_KNOWLEDGE/',
+  //主题设置
   themeConfig: {
-    //logo: '../resources/logo/loading.gif',
+    // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
+    repo: 'https://github.com/Hanwall/get_KNOWLEDGE',
+    repoLabel: '查看源码',
 
-    nav: [
-      { text: '方法论', link: '/markdown/1methodology/' },
-      { text: '逻辑思维', link: '/markdown/2logic&thinking/' },
-      { text: '学科知识',
-        items: [
-          { text: '主课', items: [{ text: '语文', link: '/markdown/3subject/1mianclass/chinese/' },{ text: '数学', link: '/markdown/3subject/1mianclass/math/' },{ text: '英语', link: '/markdown/3subject/1mianclass/english/' }] },
-          { text: '理科', items: [{ text: '物理', link: '/markdown/3subject/2science/physics/' },{ text: '化学', link: '/markdown/3subject/2science/chemistry/' },{ text: '生物', link: '/markdown/3subject/2science/biology/' }] },
-          { text: '文科', items: [{ text: '政治', link: '/markdown/3subject/3arts/politics/' },{ text: '历史', link: '/markdown/3subject/3arts/history/' },{ text: '地理', link: '/markdown/3subject/3arts/geography/' }] }
-        ]
-      },
-      { text: 'IT', link: '/markdown/4IT/' },
-      { text: '其它', link: '/markdown/5others/' }
-      
+    // 假如你的文档仓库和项目本身不在一个仓库：
+    //docsRepo: 'vuejs/vuepress',
+    //导航栏LOGO
+    logo: '/logo/loading.gif',
+    
+    // 默认是 false, 设置为 true 来启用
+    editLinks: true,
+    //默认为 "Edit this page"
+    //editLinkText: '帮助我们改善此页面！'
+    
+    //默认docs
+    docsDir: 'source',
+
+    //假如文档放在一个特定的分支下：
+    docsBranch: 'master',
+
+    // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
+    nextLinks: true,
+    // 默认值是 true 。设置为 false 来禁用所有页面的 上一篇 链接
+    prevLinks: true,
+    //页面滑动
+    smoothScroll: true
+    //国际化
+    locales: {
+      '/': {
+        label: 'English',
+        selectText: 'Languages',
+        ariaLabel: 'Select language',
+        editLinkText: 'Edit this page on GitHub',
+        lastUpdated: 'Last Updated',
+        nav: NavItems4ZH,
+        sidebar: Sidebar4ZH
+      }
+    },
+  },
+  //插件配置
+  plugins: [
+    ['@vuepress/back-to-top', true],
+    [
+      '@vuepress/pwa',
+      {
+        serviceWorker: true,
+        updatePopup: true
+      }
     ],
-
-    sidebar: 'auto',
-
-    plugins: [
-      ['@vuepress/search', {searchMaxSuggestions: 10}],
-       '@vuepress/last-updated'
-    ],
-
-    lastUpdated: 'Last Updated', // string | boolean //最后更新时间
-
-
-    nextLinks: true,  // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
-   
-    prevLinks: true,  // 默认值是 true 。设置为 false 来禁用所有页面的 上一篇 链接
-
-
-    smoothScroll: true // 页面滚动效果
-   
-    }
-}
+    ['@vuepress/medium-zoom', true],
+  //
+  extraWatchFiles: ['.vuepress/config/**'],
+  evergreen: !ctx.isProd
+}))
