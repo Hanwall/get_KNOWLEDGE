@@ -1,6 +1,6 @@
 import { NavItem } from 'vuepress/config'
 
-export const NavItem4Project: NavItem[] = [
+export const NavItems4Project: NavItem[] = [
   { text: '学习路线', link: '/initwithmarkdown/学习路线/' },
   { text: '初等教育课程', link: '/initwithmarkdown/初等教育课程/' },
   { text: '中等教育课程',
@@ -13,6 +13,6 @@ export const NavItem4Project: NavItem[] = [
   { text: '高等教育课程', link: '/initwithmarkdown/高等教育课程/' },
   { text: '终生教育类目', link: '/initwithmarkdown/终生教育类目/' },
 
-  { text: '兴趣生活', link: 'https://hanwall.github.io/get_LIFESTYLE/' }，
+  { text: '兴趣生活', link: 'https://hanwall.github.io/get_LIFESTYLE/' },
   { text: '工作流', link: 'https://hanwall.github.io/get_WORKSTYLE/' }
 ]
