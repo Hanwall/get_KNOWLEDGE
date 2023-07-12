@@ -11,8 +11,8 @@ export const NavItems4Project: NavItem[] = [
     ]
   },
   { text: '高等教育课程', link: '/initwithmarkdown/高等教育课程/' },
-  { text: '终生教育类目', link: '/initwithmarkdown/终生教育类目/' },
+  { text: '终生教育类目', link: '/initwithmarkdown/终生教育类目/' }
 
-  { text: '兴趣生活', link: 'https://hanwall.github.io/get_LIFESTYLE/' },
-  { text: '工作流', link: 'https://hanwall.github.io/get_WORKSTYLE/' }
+  //{ text: '兴趣生活', link: 'https://hanwall.github.io/get_LIFESTYLE/' },
+  //{ text: '工作流', link: 'https://hanwall.github.io/get_WORKSTYLE/' }
 ]

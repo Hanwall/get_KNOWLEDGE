@@ -26,7 +26,7 @@ export default defineConfig(ctx => ({
     logo: '/logo/loading.gif',
     
     // 默认是 false, 设置为 true 来启用
-    editLinks: true ,
+    editLinks: false ,
     //默认为 "Edit this page"
     //editLinkText: '帮助我们改善此页面！'
     
@@ -42,19 +42,13 @@ export default defineConfig(ctx => ({
     prevLinks: true,
     //页面滑动
     smoothScroll: true,
-    //国际化
-    locales: {
-      '/': {
-        label: 'English',
-        selectText: 'Languages',
-        ariaLabel: 'Select language',
-        editLinkText: 'Edit this page on GitHub',
-        lastUpdated: 'Last Updated',
-        nav: NavItems4Project,
-        sidebar: Sidebar4Project
-      }
-    }
-  },
+    
+    lastUpdated: 'Last Updated',
+    nav: NavItems4Project,
+    sidebar: Sidebar4Project
+     
+    },
+ 
   //插件配置
   plugins: [
     ['@vuepress/back-to-top', true],
