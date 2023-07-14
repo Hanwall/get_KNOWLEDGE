@@ -10,7 +10,7 @@ export default defineConfig(ctx => ({
   //dest: '../../vuepress',
 
   //首页title，描述
-  title: '我的教室',
+  title: '我的知识库',
   description: 'Just playing around',
   //如果你的网站会被部署到一个非根路径，你将需要在 .vuepress/config.js 中设置 base
   base: '/get_KNOWLEDGE/',
@@ -61,6 +61,10 @@ export default defineConfig(ctx => ({
     ],
     ['@vuepress/medium-zoom', true]
     ],
+  markdown: {
+    
+    extractHeaders: [ 'h1','h2', 'h3', 'h4' ,'h5']
+  },
   //
   extraWatchFiles: ['.vuepress/config/**'],
   evergreen: !ctx.isProd

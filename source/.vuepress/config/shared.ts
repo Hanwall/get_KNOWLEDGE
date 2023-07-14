@@ -7,33 +7,42 @@ import { SidebarConfigArray } from 'vuepress/config'
 //   .map(filename => 'official/' + filename.slice(0, -3))
 //   .sort()
 
-export function getPluginSidebar (
-  pluginTitle: string,
-  pluginIntro: string,
-  officialPluginTitle: string
+export function getStudyLineSidebar (
+  onetTitle: string,
+  twoTitle: string,
+  threeTitle: string
 ): SidebarConfigArray {
   const sidebar: SidebarConfigArray = [
     {
-      title: pluginTitle,
+      title: onetTitle,
       collapsable: false,
+      sidebarDepth:5,
       children: [
-        ['', pluginIntro],
-        'using-a-plugin',
-        'writing-a-plugin',
-        'life-cycle',
-        'option-api',
-        'context-api'
+        ['', "宇宙的诞生和发展"],
+        '地球的诞生和发展',
+        '生命的起源和生物演化',
+        '人类的起源和人类历史'
       ]
     },
     {
-      title: officialPluginTitle,
+      title: twoTitle,
       collapsable: false,
-      children:[[ '', pluginIntro],
-        'using-a-plugin',
-        'writing-a-plugin',
-        'life-cycle',
-        'option-api',
-        'context-api'
+      sidebarDepth:5,
+      children:[
+        '社会结构',
+        '职业结构',
+        '长夜结构'
+      ]
+    },
+    {
+      title: threeTitle,
+      collapsable: false,
+      sidebarDepth:5,
+      children:[
+        '什么是知识',
+        '什么是逻辑思维',
+        '为什么要讲究学习方法',
+        '终生教育'
       ]
     }
   ]
@@ -67,7 +76,7 @@ export function getApiSidebar (): SidebarConfigArray {
   return ['cli', 'node']
 }
 
-export function getGuideSidebar (groupA, groupB): SidebarConfigArray {
+export function getPluginSidebar (groupA, groupB): SidebarConfigArray {
   const sidebar: SidebarConfigArray = [
     {
       title: groupA,
