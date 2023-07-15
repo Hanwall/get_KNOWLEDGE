@@ -16,7 +16,7 @@ export function getStudySidebar (
     {
       title: onetTitle,
       collapsable: false,
-      sidebarDepth:5,
+      sidebarDepth:4,
       children: [
         ['', "索引"],
         '人类起源',
