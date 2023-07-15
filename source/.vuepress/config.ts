@@ -6,20 +6,15 @@ import { Sidebar4Project,
 
 
 
-export default defineConfig(ctx => ({
+module.exports = {
+  title: '我的知识库啊实打实',
+  description: 'Just playing around', 
+
   
-  configureWebpack: {
-    resolve: {
-      alias: {
-        '@alias': '/source/.vuepress/public/'
-      }
-    }
-  },
   //主题设置
   themeConfig: {
     //首页title，描述
-    title: '我的知识库',
-    description: 'Just playing around',
+   
     //如果你的网站会被部署到一个非根路径，你将需要在 .vuepress/config.js 中设置 base
     base: '/get_KNOWLEDGE/',
     // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
@@ -94,9 +89,15 @@ export default defineConfig(ctx => ({
   extraWatchFiles: ['.vuepress/config/**'],
 
   //如果你的对象只有那些 “常青树” 浏览器，你可以将其设置成 true，这将会禁止 ESNext 到 ES5 的转译以及对 IE 的 polyfills，同时会带来更快的构建速度和更小的文件体积。
-  evergreen: !ctx.isProd
+  //evergreen: !ctx.isProd,
 
-  
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@alias': '/source/.vuepress/public/'
+      }
+    }
+  }
 
-}))
+}
 
