@@ -3,12 +3,21 @@ home: true
 heroImage: /logo/road.webp
 heroText: 
 tagline: 
-actionText: GETTING START/开始→
-actionLink: /initwithmarkdown/学习路线/
+actionText: GETTING START
+actionLink: /initwithmarkdown/学习思路/
 features:
-- title: HELLO,I AM JASON ZHANG
-  details: WELCOME TO MY CALSS ROOM
-
+- title: 🇨🇳
+  details: 🇨🇳 
+- title: HELLO,
+  details: WELCOME TO 
+- title: I AM JASON ZHANG
+  details: MY CALSS ROOM
   
 footer:  PROJECT ON GITHUBPAGES | POWERED BY VUEPRESS
 ---
+
+
+
+
+
+![](/logo/jasonzhang1.jpeg)

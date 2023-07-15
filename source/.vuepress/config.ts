@@ -26,9 +26,9 @@ export default defineConfig(ctx => ({
     logo: '/logo/loading.gif',
     
     // 默认是 false, 设置为 true 来启用
-    editLinks: false ,
+    editLinks: true ,
     //默认为 "Edit this page"
-    //editLinkText: '帮助我们改善此页面！'
+    editLinkText: '帮助我们改善此页面！',
     
     //默认docs
     docsDir: 'source',
@@ -42,28 +42,33 @@ export default defineConfig(ctx => ({
     prevLinks: true,
     //页面滑动
     smoothScroll: true,
-    
-    lastUpdated: 'Last Updated',
+    //本页更新时间
+    lastUpdated: '最后更新',
+    //search: false,
+    //导航栏
     nav: NavItems4Project,
+    //侧边栏
     sidebar: Sidebar4Project
      
     },
  
   //插件配置
   plugins: [
+    ['@vuepress/last-updated',true],
     ['@vuepress/back-to-top', true],
     [
-      '@vuepress/pwa',
-      {
+      '@vuepress/pwa',{
         serviceWorker: true,
         updatePopup: true
       }
     ],
+    ['@vuepress/search', {
+      searchMaxSuggestions: 10
+    }],
     ['@vuepress/medium-zoom', true]
-    ],
-  markdown: {
-    
-    extractHeaders: [ 'h1','h2', 'h3', 'h4' ,'h5']
+  ],
+  Markdown: {
+      extractHeaders: [ 'h1','h2', 'h3', 'h4' ,'h5']
   },
   //
   extraWatchFiles: ['.vuepress/config/**'],
