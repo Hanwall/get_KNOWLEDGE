@@ -38,7 +38,7 @@
       </template>
       <template #bottom>
         <slot name="page-bottom" />
-        <Vssue class="theme-default-content content_default" :options="{locale:'zh'}" />
+       <!-- <Vssue class="theme-default-content content_default" :options="{locale:'zh'}" /> -->
       </template>
     </Page>
   </div>

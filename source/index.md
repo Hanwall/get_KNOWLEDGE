@@ -1,23 +1,23 @@
 ---
 home: true
-heroImage: /logo/road.webp
+heroImage: /logo/index.jpg
 heroText: 
 tagline: 
 actionText: GETTING START
 actionLink: /initwithmarkdown/学习思路/
 features:
-- title: 🇨🇳
-  details: 🇨🇳 
 - title: HELLO,
-  details: WELCOME TO 
-- title: I AM JASON ZHANG
-  details: MY CALSS ROOM
+  details: I AM JASON ZHANG
+- title: 
+  details: asddasdasdasdasd
+- title: 
+  details: 
   
 footer:  PROJECT ON GITHUBPAGES | POWERED BY VUEPRESS
 ---
 
 
 
+<img :src="$withBase('/logo/jasonzhang1.jpeg')" alt="不起作用img">
 
 
-![](/logo/jasonzhang1.jpeg)
