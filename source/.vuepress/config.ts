@@ -68,7 +68,7 @@ export default defineConfig(ctx => ({
     }],
     ['@vuepress/medium-zoom', true],
     ['@vssue/vuepress-plugin-vssue',{
-      platform: 'github', //v3的platform是github，v4的是github-v4
+      platform: 'github-v4', //v3的platform是github，v4的是github-v4
       locale: 'zh', //语言
       // 其他的 Vssue 配置
       owner: 'Hanwall', //github账户名
