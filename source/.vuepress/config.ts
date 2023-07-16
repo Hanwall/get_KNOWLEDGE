@@ -7,10 +7,10 @@ import { Sidebar4Project,
 
 
 module.exports = {
-  title: '我的知识库啊实打实',
+  title: '我的知识库',
   description: 'Just playing around', 
 
-  
+
   //主题设置
   themeConfig: {
     //首页title，描述
@@ -94,7 +94,7 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        '@alias': '/source/.vuepress/public/'
+        '@alias': '/get_KNOWLEDGE/'
       }
     }
   }
