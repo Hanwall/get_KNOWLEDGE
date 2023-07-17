@@ -94,7 +94,7 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        '@alias': '/get_KNOWLEDGE/'
+        '@alias': ''
       }
     }
   }

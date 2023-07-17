@@ -1,7 +1,7 @@
 import { NavItem } from 'vuepress/config'
 
 export const NavItems4Project: NavItem[] = [
-  { text: '学习思路', link: '/initwithmarkdown/学习思路/' },
+  { text: '计算机科学', link: '/initwithmarkdown/计算机科学/' },
   
   { text: '教育课程',
     items: [

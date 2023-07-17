@@ -4,7 +4,7 @@ heroImage: /logo/index.jpg
 heroText: WELCOME TO MY CLASSROOM
 tagline: 
 actionText: GETTING START
-actionLink: /initwithmarkdown/学习思路/
+actionLink: /initwithmarkdown/计算机科学/
 features:
 - title: HELLO,
   details: I AM JASON ZHANG
