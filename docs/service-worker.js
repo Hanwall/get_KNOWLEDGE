@@ -27,191 +27,179 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "3b91a81703a319182eab310965b7a2e1"
+    "revision": "b0caad7bde0fb8d145d6785f7f84ac69"
   },
   {
     "url": "assets/css/0.styles.89f15ef5.css",
     "revision": "d9dfe546742b81bc9b27b2ff7f173c56"
   },
   {
-    "url": "assets/img/jasonzhang1.938940a7.jpeg",
-    "revision": "938940a7b66efaed1c011b699c7e1b34"
-  },
-  {
     "url": "assets/img/search.83621669.svg",
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/10.15cce3d9.js",
-    "revision": "acb3a8f509222f995beb5072dfd9b19b"
+    "url": "assets/js/10.346557b7.js",
+    "revision": "de817270c9161aebcef20ce13e956c2b"
   },
   {
-    "url": "assets/js/11.e699299b.js",
-    "revision": "e5664211d2aba22ccdfd60486835bd97"
+    "url": "assets/js/11.f9301066.js",
+    "revision": "2ef18437752ad15f9775a2393f96f910"
   },
   {
-    "url": "assets/js/12.239ef461.js",
-    "revision": "feec983f1638f4d8c0a71207ff58d991"
+    "url": "assets/js/12.ddb5ad5a.js",
+    "revision": "442fdf4d520310175bfd87fb19304e17"
   },
   {
-    "url": "assets/js/13.be7bcd7a.js",
-    "revision": "aad6633e62bd05ab13e26c84a654c45b"
+    "url": "assets/js/13.02a85f4d.js",
+    "revision": "f9acaa1a163a915a61d6f1bdaf98a855"
   },
   {
-    "url": "assets/js/14.5175a914.js",
-    "revision": "a9eae000b4a8a5d79cc601aa7fbbd89f"
+    "url": "assets/js/14.6b4fece4.js",
+    "revision": "bfc41913fb1644319859398c2534c579"
   },
   {
-    "url": "assets/js/15.a8718503.js",
-    "revision": "607441187f8a101ff01e6e37b2d9e8cb"
+    "url": "assets/js/15.62cd2f80.js",
+    "revision": "a51de6dd9ead2d4eb1bdeff29ea528c4"
   },
   {
-    "url": "assets/js/16.6c58c9c9.js",
-    "revision": "9e34413ab9ddc3a49d51c9fe15db6089"
+    "url": "assets/js/16.003fe9c4.js",
+    "revision": "8844c08fafa68cf35404d98fa8acf2e4"
   },
   {
-    "url": "assets/js/17.61d9adbd.js",
-    "revision": "dad7e63d766321dc1fe5e8ce5d91da9e"
+    "url": "assets/js/17.a61e6e5c.js",
+    "revision": "7906e9e06427475ff7093b5e9574ab39"
   },
   {
-    "url": "assets/js/18.1cfde02d.js",
-    "revision": "3ba035285665e4521a6f9b463b61fcc3"
+    "url": "assets/js/18.4fe5a6f5.js",
+    "revision": "2bbce7da51e717d844b36df60a513ce9"
   },
   {
-    "url": "assets/js/19.e3a07577.js",
-    "revision": "3878f110bd75d9a3d126e35d1293153e"
+    "url": "assets/js/19.b3287480.js",
+    "revision": "28241efc6e0350b8acb42c066f827e75"
   },
   {
-    "url": "assets/js/2.1c23e5fa.js",
-    "revision": "2fd5939991bd8036f34c3025a2bf40d4"
+    "url": "assets/js/2.6626820a.js",
+    "revision": "85e06fa1c0eb4e016d4c7e75a8753dac"
   },
   {
-    "url": "assets/js/20.b8ebf46b.js",
-    "revision": "c9da3d7dd00d1d703259ffe977e83f9b"
+    "url": "assets/js/20.37177107.js",
+    "revision": "b1711d1a2fac48880ec9dac95d52827a"
   },
   {
-    "url": "assets/js/21.896eb370.js",
-    "revision": "fefbf9ac4941dbd56d7e276c367e48b6"
+    "url": "assets/js/21.3c57844a.js",
+    "revision": "b6c4b034fbfd4dd786672161483027f9"
   },
   {
-    "url": "assets/js/22.ae3e2404.js",
-    "revision": "c1581dfe3a4f0a181f07535189c7bd98"
+    "url": "assets/js/22.ac4ace5d.js",
+    "revision": "ff59fd845472f0fd9af9ed83831f0024"
   },
   {
-    "url": "assets/js/23.e4d09370.js",
-    "revision": "1b406734da6e93b03a920e38ee95e8a7"
+    "url": "assets/js/23.38925d9f.js",
+    "revision": "a04b3274a59a3a1b3caff0e7ce0d251f"
   },
   {
-    "url": "assets/js/24.295ea781.js",
-    "revision": "4defe2f23b2607c60de7eeaeed48068f"
+    "url": "assets/js/24.eb516790.js",
+    "revision": "890a668aef356e5778b3e82b84438fa8"
   },
   {
-    "url": "assets/js/25.10a1e13a.js",
-    "revision": "e34851c55e6c22f392870fbe44fcca43"
+    "url": "assets/js/25.ed7f265b.js",
+    "revision": "3665ca1b993dedb4d360e131d5d1de6d"
   },
   {
-    "url": "assets/js/26.14682406.js",
-    "revision": "a75d7627fead8d9dd7eb670d4faf3b49"
+    "url": "assets/js/3.9e923cde.js",
+    "revision": "f2876b70cf7818587737896582fdc0a8"
   },
   {
-    "url": "assets/js/3.0d9a4fae.js",
-    "revision": "9ef3421df920b52c0307885c7c708125"
+    "url": "assets/js/4.f4f6a1a1.js",
+    "revision": "6734f1db4ea3b23c283d1ece3f7be385"
   },
   {
-    "url": "assets/js/4.98a973ac.js",
-    "revision": "9d661b746392c5f55a49e5c7afa71a62"
+    "url": "assets/js/5.3751062a.js",
+    "revision": "fe7e457b0f2924eaa907b6636405cf16"
   },
   {
-    "url": "assets/js/5.8f30e81b.js",
-    "revision": "ded34e39adc2cf511d22376b9a213116"
+    "url": "assets/js/6.ac505818.js",
+    "revision": "356f28fd4e9d65acbddb96f0048c94ad"
   },
   {
-    "url": "assets/js/6.8520dfb3.js",
-    "revision": "b4090ce7e855884bec7d647e50ebddf1"
+    "url": "assets/js/7.4e41fba5.js",
+    "revision": "3c73c139df518a42be131178bde4c504"
   },
   {
-    "url": "assets/js/7.4c7350a2.js",
-    "revision": "b868e59d634ac528a2b80495571ad770"
+    "url": "assets/js/8.1694dfe5.js",
+    "revision": "0a7db8eca8e8f5a0c3226025f2ba2af3"
   },
   {
-    "url": "assets/js/8.226cfc41.js",
-    "revision": "694c8ba214428baac6d5d34333319869"
+    "url": "assets/js/9.2c4af095.js",
+    "revision": "2c6710c6e07972e0c6ff0afef1febde9"
   },
   {
-    "url": "assets/js/9.58bead91.js",
-    "revision": "6af6adc978982bf4a07155b5ce73bf58"
-  },
-  {
-    "url": "assets/js/app.b6dde661.js",
-    "revision": "dc206c1c4a2b88f42c7b2db2ecc05243"
+    "url": "assets/js/app.6b4dc327.js",
+    "revision": "f617311278097a7ec21d5c0ea120d68c"
   },
   {
     "url": "index.html",
-    "revision": "a084015b44091433401b51ec5398d4b3"
+    "revision": "e1e95b46781feef19db66db1cad5244c"
   },
   {
     "url": "initwithmarkdown/教育课程/1mianclass/chinese/index.html",
-    "revision": "adf9c583dfaa46fa823d7ca0d7240c4f"
+    "revision": "968eaf6af403bb344399643b9c443682"
   },
   {
     "url": "initwithmarkdown/教育课程/1mianclass/english/index.html",
-    "revision": "70b3510b255ad43344419ee204a10dee"
+    "revision": "398605b9a81cf5e91df522630f74a8ad"
   },
   {
     "url": "initwithmarkdown/教育课程/1mianclass/math/index.html",
-    "revision": "06bb0944231dfcde2b60cdf6a6d47146"
+    "revision": "7f0883057e8ae1ef2f146e6192076b79"
   },
   {
     "url": "initwithmarkdown/教育课程/1mianclass/math/数学backup.html",
-    "revision": "e2e52a274a936baf994424dc036be59b"
+    "revision": "28f2e72aaf35c103c9d352a7b09ea242"
   },
   {
     "url": "initwithmarkdown/教育课程/2science/biology/index.html",
-    "revision": "b90871d87b5b26d4ef181e5344cfb289"
+    "revision": "a009a7a56a9f63520047618bb58f51d9"
   },
   {
     "url": "initwithmarkdown/教育课程/2science/chemistry/index.html",
-    "revision": "8468d3a84d283cd4612ff6752f83ae37"
+    "revision": "bc50763a3f4f0523442cfbcc796e89a1"
   },
   {
     "url": "initwithmarkdown/教育课程/2science/physics/index.html",
-    "revision": "b2894bf1b459fa8c9a894e3d9218915c"
+    "revision": "ef7d5a28a3aaf56665cc0667f9263f94"
   },
   {
     "url": "initwithmarkdown/教育课程/3arts/geography/index.html",
-    "revision": "2a4697dcc9066c236a6cfda57c50b133"
+    "revision": "cbfe1edafc2f36431abff96adb4d1c37"
   },
   {
     "url": "initwithmarkdown/教育课程/3arts/history/index.html",
-    "revision": "d3c76f535fbdac7b1abbf32e646319d5"
+    "revision": "cc3947890f299d0834d3a0a51e26c8c0"
   },
   {
     "url": "initwithmarkdown/教育课程/3arts/politics/index.html",
-    "revision": "010103c6a677f993ae8747d465bc1df1"
+    "revision": "b63830f95a2f81eff65d4f3330f8dcdc"
   },
   {
     "url": "initwithmarkdown/计算机科学/index.html",
-    "revision": "5f8c5002258f0ca3baf4830d4f7439a1"
+    "revision": "e950f920dbede356dbfbe88f6a223777"
   },
   {
-    "url": "initwithmarkdown/计算机科学/tmp.html",
-    "revision": "7211b3d16e34c679897e5947da697447"
+    "url": "initwithmarkdown/计算机科学/操作系统.html",
+    "revision": "304f729b662d071b9c0eed8880a16a0e"
   },
   {
-    "url": "initwithmarkdown/计算机科学/人类历史.html",
-    "revision": "2916e687d8f655e97cd6d7cdb96f49cd"
+    "url": "initwithmarkdown/计算机科学/数学基础.html",
+    "revision": "d0ae638da77318be23307504ee0ba13b"
   },
   {
-    "url": "initwithmarkdown/计算机科学/人类起源.html",
-    "revision": "4e4c725f2755e42fe8920d082b9e47a4"
+    "url": "initwithmarkdown/计算机科学/科学基础.html",
+    "revision": "9666ee3675bda5e4da55976809862014"
   },
   {
-    "url": "initwithmarkdown/计算机科学/经验知识.html",
-    "revision": "04651ff4edcb632ab3e2639d0c6bfda3"
-  },
-  {
-    "url": "initwithmarkdown/计算机科学/逻辑思维.html",
-    "revision": "44d565ceb1e67903a1b1fb1591df44f0"
+    "url": "initwithmarkdown/计算机科学/算法和数据结构.html",
+    "revision": "2c1ffd5c740ffcfa99f07651e3e8ef61"
   },
   {
     "url": "logo/index.jpg",
