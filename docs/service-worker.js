@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "c6f160ba3b846763e5bfbec1a4ecf8af"
+    "revision": "3b91a81703a319182eab310965b7a2e1"
   },
   {
-    "url": "assets/css/0.styles.9b3e2ba3.css",
-    "revision": "6747c4bda0e355ae8a3b018236c0583a"
+    "url": "assets/css/0.styles.89f15ef5.css",
+    "revision": "d9dfe546742b81bc9b27b2ff7f173c56"
   },
   {
     "url": "assets/img/jasonzhang1.938940a7.jpeg",
@@ -46,12 +46,12 @@ self.__precacheManifest = [
     "revision": "acb3a8f509222f995beb5072dfd9b19b"
   },
   {
-    "url": "assets/js/11.185af32a.js",
-    "revision": "580821dac87c8311f4eb664c6cc23579"
+    "url": "assets/js/11.e699299b.js",
+    "revision": "e5664211d2aba22ccdfd60486835bd97"
   },
   {
-    "url": "assets/js/12.42a25047.js",
-    "revision": "2b2f4ed357d676c9d20d2afe5269b0e3"
+    "url": "assets/js/12.239ef461.js",
+    "revision": "feec983f1638f4d8c0a71207ff58d991"
   },
   {
     "url": "assets/js/13.be7bcd7a.js",
@@ -74,36 +74,36 @@ self.__precacheManifest = [
     "revision": "dad7e63d766321dc1fe5e8ce5d91da9e"
   },
   {
-    "url": "assets/js/18.4dca8e7b.js",
-    "revision": "3b08ae0eda2821678486eaa4e6d5eff0"
+    "url": "assets/js/18.1cfde02d.js",
+    "revision": "3ba035285665e4521a6f9b463b61fcc3"
   },
   {
-    "url": "assets/js/19.90939c23.js",
-    "revision": "9586a18afac1e9b0fca7ec85aef72e90"
+    "url": "assets/js/19.e3a07577.js",
+    "revision": "3878f110bd75d9a3d126e35d1293153e"
   },
   {
     "url": "assets/js/2.1c23e5fa.js",
     "revision": "2fd5939991bd8036f34c3025a2bf40d4"
   },
   {
-    "url": "assets/js/20.4d3b3ab7.js",
-    "revision": "1d0591d24988a13323d773fe19351127"
+    "url": "assets/js/20.b8ebf46b.js",
+    "revision": "c9da3d7dd00d1d703259ffe977e83f9b"
   },
   {
-    "url": "assets/js/21.622ca0b8.js",
-    "revision": "385cd3b395719c2340be54d147e29f5f"
+    "url": "assets/js/21.896eb370.js",
+    "revision": "fefbf9ac4941dbd56d7e276c367e48b6"
   },
   {
-    "url": "assets/js/22.d67fe49d.js",
-    "revision": "1c407707d8bbe9615bc00b0f2d06b5cc"
+    "url": "assets/js/22.ae3e2404.js",
+    "revision": "c1581dfe3a4f0a181f07535189c7bd98"
   },
   {
-    "url": "assets/js/23.75647f34.js",
-    "revision": "a877ed15169bc0fb02e444bf2ec0b273"
+    "url": "assets/js/23.e4d09370.js",
+    "revision": "1b406734da6e93b03a920e38ee95e8a7"
   },
   {
-    "url": "assets/js/24.c4a348ec.js",
-    "revision": "a8074aaaf596a4a907de5f70db1214a2"
+    "url": "assets/js/24.295ea781.js",
+    "revision": "4defe2f23b2607c60de7eeaeed48068f"
   },
   {
     "url": "assets/js/25.10a1e13a.js",
@@ -130,8 +130,8 @@ self.__precacheManifest = [
     "revision": "b4090ce7e855884bec7d647e50ebddf1"
   },
   {
-    "url": "assets/js/7.f5ce77e6.js",
-    "revision": "3709f767c410de30b41e6491e7746b06"
+    "url": "assets/js/7.4c7350a2.js",
+    "revision": "b868e59d634ac528a2b80495571ad770"
   },
   {
     "url": "assets/js/8.226cfc41.js",
@@ -142,76 +142,76 @@ self.__precacheManifest = [
     "revision": "6af6adc978982bf4a07155b5ce73bf58"
   },
   {
-    "url": "assets/js/app.b10ab12c.js",
-    "revision": "520c5d89de3641f7c8d53e4685d984d3"
+    "url": "assets/js/app.b6dde661.js",
+    "revision": "dc206c1c4a2b88f42c7b2db2ecc05243"
   },
   {
     "url": "index.html",
-    "revision": "685e62a9720b720a6c07550bb24f1c37"
+    "revision": "a084015b44091433401b51ec5398d4b3"
   },
   {
     "url": "initwithmarkdown/教育课程/1mianclass/chinese/index.html",
-    "revision": "4f166ddc8d4af486bd9276c9a3736533"
+    "revision": "adf9c583dfaa46fa823d7ca0d7240c4f"
   },
   {
     "url": "initwithmarkdown/教育课程/1mianclass/english/index.html",
-    "revision": "73da1d4355c7af71adee021f3643bb4c"
+    "revision": "70b3510b255ad43344419ee204a10dee"
   },
   {
     "url": "initwithmarkdown/教育课程/1mianclass/math/index.html",
-    "revision": "a291040b12d7fe8c91aca8bbecea6379"
+    "revision": "06bb0944231dfcde2b60cdf6a6d47146"
   },
   {
     "url": "initwithmarkdown/教育课程/1mianclass/math/数学backup.html",
-    "revision": "f304d3605667affa20192229da51b70f"
+    "revision": "e2e52a274a936baf994424dc036be59b"
   },
   {
     "url": "initwithmarkdown/教育课程/2science/biology/index.html",
-    "revision": "e3bbec99620ac3198cc5e30d8236e2cc"
+    "revision": "b90871d87b5b26d4ef181e5344cfb289"
   },
   {
     "url": "initwithmarkdown/教育课程/2science/chemistry/index.html",
-    "revision": "43c746d753011fd3ded8eaa8d25dbf64"
+    "revision": "8468d3a84d283cd4612ff6752f83ae37"
   },
   {
     "url": "initwithmarkdown/教育课程/2science/physics/index.html",
-    "revision": "f103b45df129f6a45ecdfdec2f2ab646"
+    "revision": "b2894bf1b459fa8c9a894e3d9218915c"
   },
   {
     "url": "initwithmarkdown/教育课程/3arts/geography/index.html",
-    "revision": "f3d24551c263d05c14d4e6535cd6a6fd"
+    "revision": "2a4697dcc9066c236a6cfda57c50b133"
   },
   {
     "url": "initwithmarkdown/教育课程/3arts/history/index.html",
-    "revision": "dfb0b42ddcabe578a0fa775fe53baf7e"
+    "revision": "d3c76f535fbdac7b1abbf32e646319d5"
   },
   {
     "url": "initwithmarkdown/教育课程/3arts/politics/index.html",
-    "revision": "34f771daebbcd9ca3252d70a79808d2a"
+    "revision": "010103c6a677f993ae8747d465bc1df1"
   },
   {
     "url": "initwithmarkdown/计算机科学/index.html",
-    "revision": "d3e8f975cde1b227e421a825b736822c"
+    "revision": "5f8c5002258f0ca3baf4830d4f7439a1"
   },
   {
     "url": "initwithmarkdown/计算机科学/tmp.html",
-    "revision": "ccc7db764205bc1fc18a30ba98a4c181"
+    "revision": "7211b3d16e34c679897e5947da697447"
   },
   {
     "url": "initwithmarkdown/计算机科学/人类历史.html",
-    "revision": "cb5ff476c963a70dff52f0a41cdfaef4"
+    "revision": "2916e687d8f655e97cd6d7cdb96f49cd"
   },
   {
     "url": "initwithmarkdown/计算机科学/人类起源.html",
-    "revision": "71972f81b88578a4a805fde0edb594f5"
+    "revision": "4e4c725f2755e42fe8920d082b9e47a4"
   },
   {
     "url": "initwithmarkdown/计算机科学/经验知识.html",
-    "revision": "378406e08ccf96294cee8e36ae99553f"
+    "revision": "04651ff4edcb632ab3e2639d0c6bfda3"
   },
   {
     "url": "initwithmarkdown/计算机科学/逻辑思维.html",
-    "revision": "e291b456f0bd201f74612ca30544e393"
+    "revision": "44d565ceb1e67903a1b1fb1591df44f0"
   },
   {
     "url": "logo/index.jpg",

@@ -7,20 +7,21 @@ import { Sidebar4Project,
 
 
 module.exports = {
+  //首页title，描述
   title: '我的知识库',
   description: 'Just playing around', 
-
+  //如果你的网站会被部署到一个非根路径，你将需要在 .vuepress/config.js 中设置 base
+  base: '/get_KNOWLEDGE/',
+    
 
   //主题设置
   themeConfig: {
-    //首页title，描述
-   
-    //如果你的网站会被部署到一个非根路径，你将需要在 .vuepress/config.js 中设置 base
-    base: '/get_KNOWLEDGE/',
+    
     // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
     repo: 'https://github.com/Hanwall/get_KNOWLEDGE',
     repoLabel: '查看源码',
 
+   
     // 假如你的文档仓库和项目本身不在一个仓库：
     //docsRepo: 'vuejs/vuepress',
     //导航栏LOGO
