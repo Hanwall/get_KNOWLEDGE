@@ -4,6 +4,6 @@ import {
 } from './shared'
 
 export const Sidebar4Project: SidebarConfig4Multiple = {
-  '/initwithmarkdown/计算机科学/': getStudySidebar('关于人类','大脑的进化','逻辑思维')
+  '/initwithmarkdown/计算机科学/': getStudySidebar('计算机科学理论','计算机科学基础','编程语言','工具集','架构')
 }
 
