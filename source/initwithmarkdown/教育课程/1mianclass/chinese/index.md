@@ -1,7 +1,7 @@
 ---
 sidebar: auto
-sidebarDepth: 6
+sidebarDepth: 2
 ---
 
 
-语文
+# 语文

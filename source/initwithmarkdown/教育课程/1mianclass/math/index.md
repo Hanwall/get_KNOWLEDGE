@@ -1,6 +1,6 @@
 ---
 sidebar: auto
-sidebarDepth: 6
+sidebarDepth: 2
 ---
 
-数学
+# 数学

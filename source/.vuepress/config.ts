@@ -89,7 +89,6 @@ module.exports = {
       searchMaxSuggestions: 10
     }],
     ['@vuepress/medium-zoom', true]
-    
   ]
 
   // if (ctx.isProd){

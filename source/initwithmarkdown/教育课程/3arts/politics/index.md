@@ -1,6 +1,6 @@
 ---
 sidebar: auto
-sidebarDepth: 6
+sidebarDepth: 2
 ---
 
-政治
+# 政治

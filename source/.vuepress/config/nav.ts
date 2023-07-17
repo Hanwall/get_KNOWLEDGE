@@ -9,7 +9,7 @@ export const NavItems4Project: NavItem[] = [
       { text: '理科', items: [{ text: '物理', link: '/initwithmarkdown/教育课程/2science/physics/' },{ text: '化学', link: '/initwithmarkdown/教育课程/2science/chemistry/' },{ text: '生物', link: '/initwithmarkdown/教育课程/2science/biology/' }] },
       { text: '文科', items: [{ text: '政治', link: '/initwithmarkdown/教育课程/3arts/politics/' },{ text: '历史', link: '/initwithmarkdown/教育课程/3arts/history/' },{ text: '地理', link: '/initwithmarkdown/教育课程/3arts/geography/' }] }
     ]
-  },
-  { text: '生活', link: 'https://hanwall.github.io/get_LIFESTYLE/' },
-  { text: '工作', link: 'https://hanwall.github.io/get_WORKSTYLE/' }
+  }
+  // { text: '生活', link: 'https://hanwall.github.io/get_LIFESTYLE/' },
+  // { text: '工作', link: 'https://hanwall.github.io/get_WORKSTYLE/' }
 ]
