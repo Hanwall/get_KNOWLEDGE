@@ -1,5 +1,3 @@
-
-
 # 计算机科学
 
 
@@ -12,6 +10,8 @@
 ## 架构
 
 
+![](../img/jasonzhang1.jpeg)
 
 
-![](../img/logo/jasonzhang1.jpeg)
+## 阿萨德
+
