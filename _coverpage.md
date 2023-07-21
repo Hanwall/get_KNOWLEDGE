@@ -13,6 +13,6 @@
 
 
 
-[GETTING START](./README.md)
+[GETTING START](./index.md)
 
 ![](./resources/pic/logo/jasonzhang2.jpg)
