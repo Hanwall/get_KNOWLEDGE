@@ -1,4 +1,4 @@
-# WORKFLOWS
+# 我的知识库
 
 
 
@@ -15,4 +15,4 @@
 
 [GETTING START](./README.md)
 
-![](./resources/pic/logo/coverpage.jpg)
+![](./resources/pic/logo/jasonzhang2.jpg)

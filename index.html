@@ -17,9 +17,9 @@
 
 <script>
     window.$docsify = {
-    name: "WORKFLOWS",//不能为空不能为nil
-    logo: '/resources/pic/logo/logo.png',
-    repo: '',//githubURL
+    name: "我的知识库",//不能为空不能为nil
+    logo: '',
+    repo: 'https://github.com/Hanwall/get_KNOWLEDGE',//githubURL
 
     formatUpdated: '{YYYY}/{MM}/{DD}',//
    
@@ -54,7 +54,7 @@
 
     footer: {
       copy:
-      '<a href="https://github.com/Hanwall/"><img width=30px height=30px align="AbsMiddle" src="./resources/pic/logo/loading.gif"/></a><br/><span id="sitetime"></span><br/><span>BIG TANKS FOR:<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><br/><img width="60px" height="30px" align="AbsMiddle" src="./resources/pic/logo/upyun_logos/又拍云_logo5.png"/></a></span>',
+      '<img width=30px height=30px align="AbsMiddle" src="./resources/pic/logo/loading.gif"/><span id="sitetime"></span><br/>',
       auth: ' ',
       pre: '<hr/>',
       style: 'background-color:#ffffff',
@@ -109,7 +109,7 @@
          minutes - 0-59之间的整数，做为date对象的分钟数
          seconds - 0-59之间的整数，做为date对象的秒数
          microseconds - 0-999之间的整数，做为date对象的毫秒数 */
-         var t1 = Date.UTC(2022, 08, 06, 23, 59, 59); //辞职之日
+         var t1 = Date.UTC(2023, 07, 20, 23, 59, 59); //重新开始之日
          var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
          var diff = t2 - t1;
          var diffYears = Math.floor(diff / years);
