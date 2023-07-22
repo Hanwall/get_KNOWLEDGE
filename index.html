@@ -7,7 +7,7 @@
   <meta name="referrer" content="no-referrer">
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="./plugin/vue.css">
+  <link rel="stylesheet" href="./resources/plugin/vue.css">
 </head>
 <style>
 
@@ -17,31 +17,32 @@
 
 <script>
     window.$docsify = {
-    name: "我的知识库",//不能为空不能为nil
-    logo: '',
-    repo: 'https://github.com/Hanwall/get_KNOWLEDGE',//githubURL
+    name: "我的知识库",          //不能为空不能为nil
+    logo: '',         //页面的LOGO
+    repo: 'https://github.com/Hanwall/get_KNOWLEDGE',     //githubURL
 
-    formatUpdated: '{YYYY}/{MM}/{DD}',//
+    formatUpdated: '{YYYY}/{MM}/{DD}',      //日期格式化
    
-    coverpage: '_coverpage.md',//
-    onlyCover: true,//
+    coverpage: '_coverpage.md',     //首页开启
+    onlyCover: true,      //首页和详情页面分离不能滑动
 
-    loadSidebar: '_sidebar.md',//
-    maxLevel: 3,//
-		subMaxLevel: 2,//
+    loadSidebar: '_sidebar.md',//开启侧边栏
+    maxLevel: 3,// 最高的标题等级
+		//subMaxLevel: 3,//最高目录等级,但是没跟他说哪个目录他怎么生成
 
-    auto2top: true,//
+    auto2top: true,//自动到顶
 
     homepage: 'index.md',// README.md
 
-    topMargin: 60,//
+    topMargin: 60,//到顶大小
     
     notFoundPage: '404.md',//
-    mergeNavbar: false,//sidebar
+    
+    mergeNavbar: false,//小屏设备下合并导航栏到侧边栏。
 
-    relativePath: false,// true
+    relativePath: true,//如果该选项设为 true ，那么链接会使用相对路径。 
 
-    executeScript: true,//
+    executeScript: true,//执行文档里的 script 标签里的脚本，只执行第一个 script (demo)。 如果 Vue 存在，则自动开启。
 
     search: {
         paths: 'auto',
@@ -63,16 +64,16 @@
   </script>
 
   <!-- Docsify v4 -->
-  <script src="./plugin/docsify.min.js"></script>
-  <script src="./plugin/search.min.js"></script>
-  <script src="./plugin/zoom-image.min.js"></script>
+  <script src="./resources/plugin/docsify.min.js"></script>
+  <script src="./resources/plugin/search.min.js"></script>
+  <script src="./resources/plugin/zoom-image.min.js"></script>
 
   <!-- 添加页脚 -->
-  <script src="./plugin/docsify-footer-enh.min.js"></script>
+  <script src="./resources/plugin/docsify-footer-enh.min.js"></script>
 
   <!-- 回到顶部功能 -->
-    <script src="./plugin/jquery.js"></script>
-    <script src="./plugin/jquery.goup.js"></script>
+    <script src="./resources/plugin/jquery.js"></script>
+    <script src="./resources/plugin/jquery.goup.js"></script>
     <script type="text/javascript">
       $(document).ready(function () {
         $.goup({

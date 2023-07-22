@@ -21,3 +21,5 @@
 
 
 !> 此项目 使用docsify构建，部署在github pages上，内容就是知识的整理展示，希望是里面有包括世间所有知识的探讨，也希望是对别人有帮助
+
+[test](./initwithmarkdown/学习/高效学习/教育划分.md)
