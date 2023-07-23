@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 os：Darwin admindeMacBook-Pro.local 17.7.0 Darwin Kernel Version 17.7.0: Thu Jun 21 22:53:14 PDT 2018; root:xnu-4570.71.2~1/RELEASE_X86_64 x86_64
 
 
@@ -56,3 +57,6 @@ gitbook serve to bulid the html files in _book floder
 # get_WORKSEYLE
 HOW TO DO IN WORK
 
+=======
+# A PROJECT POWERED BY VUEPRESS
+>>>>>>> f4fc931a26dab54d1562160e192301688d2026c6
