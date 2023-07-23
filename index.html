@@ -1,16 +1,140 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1504.83">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-  </style>
+  <meta charset="UTF-8">
+  <title>我的知识库</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="./resources/plugin/vue.css">
 </head>
+<style>
+
+
+</style>
 <body>
-<p class="p1">aaaaaa</p>
+
+<script>
+    window.$docsify = {
+    name: "我的知识库",          //不能为空不能为nil
+    logo: '',         //页面的LOGO
+    repo: 'https://github.com/Hanwall/get_KNOWLEDGE',     //githubURL
+
+    formatUpdated: '{YYYY}/{MM}/{DD}',      //日期格式化
+   
+    coverpage: '_coverpage.md',     //首页开启
+    onlyCover: true,      //首页和详情页面分离不能滑动
+
+    loadSidebar: '_sidebar.md',//开启侧边栏
+    maxLevel: 3,// 最高的标题等级
+		//subMaxLevel: 3,//最高目录等级,但是没跟他说哪个目录他怎么生成
+    loadNavbar: true,//'_navbar.md',
+    auto2top: true,//自动到顶
+
+    homepage: 'index.md',// README.md
+
+    topMargin: 60,//到顶大小
+    
+    notFoundPage: '404.md',//
+    
+    mergeNavbar: false,//小屏设备下合并导航栏到侧边栏。
+
+    relativePath: true,//如果该选项设为 true ，那么链接会使用相对路径。 
+
+    executeScript: true,//执行文档里的 script 标签里的脚本，只执行第一个 script (demo)。 如果 Vue 存在，则自动开启。
+    
+    search: {
+        paths: 'auto',
+        placeholder: '搜索',
+        noData: '找不到结果',
+        // Headline depth, 1 - 6
+        depth: 6,
+        maxAge: 86400000 // 过期时间，单位毫秒，默认一天
+      },//搜索插件
+
+    footer: {
+      copy:
+      '<img width=30px height=30px align="AbsMiddle" src="./resources/pic/logo/loading.gif"/><span id="sitetime"></span><br/>PROJECT ON GITHUBPAGES | POWERED BY <a href="https://docsify.js.org/#/zh-cn/">DOCSIFY</a>',
+      auth: ' ',
+      pre: '<hr/>',
+      style: 'background-color:#ffffff',
+      }//页脚插件
+    }
+  </script>
+
+  <!-- Docsify v4 -->
+  <script src="./resources/plugin/docsify.min.js"></script>
+  <script src="./resources/plugin/search.min.js"></script>
+  <script src="./resources/plugin/zoom-image.min.js"></script>
+
+  <!-- 添加页脚 -->
+  <script src="./resources/plugin/docsify-footer-enh.min.js"></script>
+
+  <!-- 回到顶部功能 -->
+    <script src="./resources/plugin/jquery.js"></script>
+    <script src="./resources/plugin/jquery.goup.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $.goup({
+          trigger: 100,
+          bottomOffset: 52,
+          locationOffset: 25,
+          //title: 'TOP',
+          titleAsText: true
+        });
+      });
+    </script>
+
+  <!-- 添加网站运行时间统计 -->
+  <script language=javascript>
+      function siteTime() {
+         window.setTimeout("siteTime()", 1000);
+         var seconds = 1000;
+         var minutes = seconds * 60;
+         var hours = minutes * 60;
+         var days = hours * 24;
+         var years = days * 365;
+         var today = new Date();
+         var todayYear = today.getFullYear();
+         var todayMonth = today.getMonth() + 1;
+         var todayDate = today.getDate();
+         var todayHour = today.getHours();
+         var todayMinute = today.getMinutes();
+         var todaySecond = today.getSeconds();
+         /* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
+         year - 作为date对象的年份，为4位年份值
+         month - 0-11之间的整数，做为date对象的月份
+         day - 1-31之间的整数，做为date对象的天数
+         hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
+         minutes - 0-59之间的整数，做为date对象的分钟数
+         seconds - 0-59之间的整数，做为date对象的秒数
+         microseconds - 0-999之间的整数，做为date对象的毫秒数 */
+         var t1 = Date.UTC(2023, 07, 20, 23, 59, 59); //重新开始之日
+         var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+         var diff = t2 - t1;
+         var diffYears = Math.floor(diff / years);
+         var diffDays = Math.floor((diff / days) - diffYears * 365);
+         var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+         var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
+         var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
+         var a = document.getElementById("sitetime");
+         if (a){
+         a.innerHTML = " 本站已安全运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分 " + diffSeconds + " 秒 ";
+         }
+      }
+      siteTime();
+  </script>
+
+  <!-- 访问量统计 -->
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+ 
+  
+  <nav>
+    <a href="https://hanwall.github.io/get_LIFESTYLE/">LIFESTYLE</a>
+    <a href="https://hanwall.github.io/get_WORKSTYLE/">WORKSTYLE</a>
+  </nav>
+  <div id="app"></div>
+
 </body>
 </html>
