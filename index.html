@@ -29,7 +29,7 @@
     loadSidebar: '_sidebar.md',//开启侧边栏
     maxLevel: 3,// 最高的标题等级
 		//subMaxLevel: 3,//最高目录等级,但是没跟他说哪个目录他怎么生成
-
+    loadNavbar: true,//'_navbar.md',
     auto2top: true,//自动到顶
 
     homepage: 'index.md',// README.md
@@ -43,7 +43,7 @@
     relativePath: true,//如果该选项设为 true ，那么链接会使用相对路径。 
 
     executeScript: true,//执行文档里的 script 标签里的脚本，只执行第一个 script (demo)。 如果 Vue 存在，则自动开启。
-
+    
     search: {
         paths: 'auto',
         placeholder: '搜索',
@@ -55,7 +55,7 @@
 
     footer: {
       copy:
-      '<img width=30px height=30px align="AbsMiddle" src="./resources/pic/logo/loading.gif"/><span id="sitetime"></span><br/>',
+      '<img width=30px height=30px align="AbsMiddle" src="./resources/pic/logo/loading.gif"/><span id="sitetime"></span><br/>PROJECT ON GITHUBPAGES | POWERED BY <a href="https://docsify.js.org/#/zh-cn/">DOCSIFY</a>',
       auth: ' ',
       pre: '<hr/>',
       style: 'background-color:#ffffff',
@@ -128,7 +128,13 @@
 
   <!-- 访问量统计 -->
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+ 
   
-  <div id="app">加载中</div>
+  <nav>
+    <a href="https://hanwall.github.io/get_LIFESTYLE/">EN</a>
+    <a href="https://hanwall.github.io/get_WORKSTYLE/">简体中文</a>
+  </nav>
+  <div id="app"></div>
+
 </body>
 </html>
