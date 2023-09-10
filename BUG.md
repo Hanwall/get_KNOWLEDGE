@@ -1,9 +1,4 @@
-upyun在微信的拦截问题
 
-视频地址问题
-
-
-所有资源存在国内git仓库上，移动了原始项目，需要修改地址或者重新修改同步新的项目名字
 
 
 admindeMacBook-Pro:get_KNOWLEDGE admin$ git push
@@ -117,3 +112,7 @@ hint: as appropriate to mark resolution and make a commit.
 fatal: Exiting because of an unresolved conflict.
 
 >>>>>>> f4fc931a26dab54d1562160e192301688d2026c6
+
+
+
+
