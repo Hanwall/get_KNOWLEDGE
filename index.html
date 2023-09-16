@@ -9,17 +9,12 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="./resources/plugin/vue.css">
-
-
 </head>
 <style>
 </style>
 
 <body>
-
   <script>
-
-
     window.$docsify = {
 
       //dev 
@@ -35,15 +30,11 @@
 
           hook.mounted(function () {
             // 初始化并第一次加载完成数据后调用，只触发一次，没有参数。
-
             var img = document.getElementsByTagName("img");
-
             for (var index = 0; index < img.length; index++) {
-
               if (img[index].alt == "我的知识库") {
                 img[index].style.cssText = "height: 50px;width: 50px;"
               }
-
             }
           });
         }],
@@ -59,7 +50,9 @@
       maxLevel: 4,//默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。
 
       loadSidebar: '_sidebar.md',//开启侧边栏
-
+      // alias: {
+      // '/.*/_sidebar.md': '/_sidebar.md'
+      // },
       //subMaxLevel: 2,//最高目录等级,但是没跟他说哪个目录他怎么生成
 
       loadNavbar: '_navbar.md',
@@ -88,7 +81,7 @@
       toc: {
         scope: '.markdown-section',
         headings: 'h1, h2, h3, h4, h5, h6',
-        title: '文章目录',
+        title: '目录',
       },
       // toc: {
       //   tocMaxLevel: 2,
@@ -97,7 +90,7 @@
 
       count: {
         countable: true,
-        position: "top",
+        position: "bottom",
         margin: "10px",
         float: "right",
         fontsize: "0.9em",
@@ -107,14 +100,14 @@
           words: "",
           minute: "",
         },
-        isExpected: true,
+        isExpected: false,
       }, // 字数统计
 
       pagination: {
         previousText: "上一页",
         nextText: "下一页",
         crossChapter: true,
-        crossChapterText: true,
+        crossChapterText: false,
       },// 底部上一页下一页导航
 
       footer: {
@@ -123,11 +116,69 @@
         auth: ' ',
         pre: '<hr/>',
         style: 'background-color:#ffffff',
-      }//页脚插件
+      },//页脚插件
+      markdown: {
+        //If you have defined the follow section, 
+        //then you need to follow the steps in the next section.
+        //(only the code section matters in this plugin)
+        /* SECTION START
+        	
+            code: function(code, lang){
+              some custom functions here
+              return some_custom_results;
+            }
+        	
+        SECTION END */
+        code: function (code, lang) {
+          var renderer_func = function (code, lang, base = null) {
+            var pdf_renderer = function (code, lang, verify) {
+              function unique_id_generator() {
+                function rand_gen() {
+                  return Math.floor((Math.random() + 1) * 65536).toString(16).substring(1);
+                }
+                return rand_gen() + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + rand_gen() + rand_gen();
+              }
+              if (lang && !lang.localeCompare('pdf', 'en', { sensitivity: 'base' })) {
+                if (verify) {
+                  return true;
+                } else {
+                  var divId = "markdown_code_pdf_container_" + unique_id_generator().toString();
+                  var container_list = new Array();
+                  if (localStorage.getItem('pdf_container_list')) {
+                    container_list = JSON.parse(localStorage.getItem('pdf_container_list'));
+                  }
+                  container_list.push({ "pdf_location": code, "div_id": divId });
+                  localStorage.setItem('pdf_container_list', JSON.stringify(container_list));
+                  return (
+                    '<div style="margin-top:' + PDF_MARGIN_TOP + '; margin-bottom:' + PDF_MARGIN_BOTTOM + ';" id="' + divId + '">'
+                    + '<a href="' + code + '"> Link </a> to ' + code +
+                    '</div>'
+                  );
+                }
+              }
+              return false;
+            }
+            if (pdf_renderer(code, lang, true)) {
+              return pdf_renderer(code, lang, false);
+            }
+            /* SECTION START: Put other custom code rendering functions here
+              i.e. If the language of the code block is LaTex, 
+              put the code below to replace original code block with the text: 
+              'Using LaTex is much better than handwriting!' inside a div container.
+              if (lang == "latex") {
+                return ('<div class="container">Using LaTex is much better than handwriting!</div>');
+              }
+            SECTION END */
+            return (base ? base : this.origin.code.apply(this, arguments));
+          }
+
+        }
+      }
+
+
+
+
     }
-
-
-
   </script>
 
   <!-- Docsify v4 -->
@@ -227,10 +278,17 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-docker.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-powershell.min.js"></script>
 
+  <!-- PDFObject.js is a required dependency of this plugin -->
+  <script src="./resources/plugin/pdfobject.min.js"></script>
+  <!-- This is the source code of the pdf embed plugin -->
+
+  <!-- or use this if you are not hosting the file yourself -->
+  <script src="./resources/plugin/docsify-pdf-embed.js"></script>
+
   <!-- <nav>
   <a href="https://hanwall.github.io/get_LIFESTYLE/">LIFESTYLE</a>
   <a href="https://hanwall.github.io/get_WORKSTYLE/">WORKSTYLE</a>
-</nav> -->
+  </nav> -->
 
   <div id="app"></div>
 

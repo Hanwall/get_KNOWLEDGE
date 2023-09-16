@@ -1,0 +1,166 @@
+<mxfile modified="2023-09-07T13:09:18.850Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="MKCdK_ptM3Ez4EQrFicg" version="21.7.2" type="device">
+  <diagram id="C2fSY1v2SiZeoUbDoYyL" name="Page-1">
+    <mxGraphModel dx="3338" dy="1846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i9pyd7EPPGO8M3qg6k5v-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="i9pyd7EPPGO8M3qg6k5v-24" target="i9pyd7EPPGO8M3qg6k5v-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ne1QswCM8ZiEu4GHsYG-31" value="现代中国教育体系之教育阶段划分" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=20;fontColor=#4D4D4D;" parent="1" vertex="1">
+          <mxGeometry width="1160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3ne1QswCM8ZiEu4GHsYG-32" value="" style="line;strokeWidth=2;html=1;fontSize=20;fontColor=#4D4D4D;" parent="1" vertex="1">
+          <mxGeometry y="40" width="1160" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-3" value="幼儿园" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="160" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-6" value="小学" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="240" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-8" value="初中" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="320" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-16" value="大学本科" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="480" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-18" value="硕士研究生" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="560" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-60" value="职高" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="400" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-61" value="中专" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="400" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-58" value="普高高中" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="400" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-90" value="普通教育" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-670" y="120" width="80" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-92" value="大学专科" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="480" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-106" value="博士研究生" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="640" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-113" value="职业教育" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-840" y="200" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-119" value="学历教育&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;direction=north;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-920" width="80" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-120" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;非学历教育&lt;br style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;direction=north;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-920" y="450" width="80" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-121" value="学前教育阶段" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-123" value="义务教育阶段" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="230" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-124" value="初等教育阶段" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-125" value="中等教育阶段" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="190" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-126" value="高等教育阶段" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="190" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-149" value="教育阶段" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-151" value="技校" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="400" y="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-152" value="教育类型" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="510" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-160" value="学校教育" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=20;fontColor=#4D4D4D;" parent="1" vertex="1">
+          <mxGeometry y="120" width="1160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-161" value="学前班" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-164" value="正规教育" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-1000" width="80" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-165" value="非正规教育" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-1000" y="480" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-167" value="学校教育" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-1169" width="89" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-168" value="社会教育" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-1169" y="480" width="89" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-170" value="自我教育" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-1169" y="720" width="89" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-171" value="基础教育" style="rounded=1;whiteSpace=wrap;html=1;direction=north;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-840" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-172" value="高等教育" style="rounded=1;whiteSpace=wrap;html=1;direction=north;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-840" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RQ_ajCuKkomTZHcjpLCE-173" value="成人教育" style="rounded=1;whiteSpace=wrap;html=1;direction=north;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-840" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i9pyd7EPPGO8M3qg6k5v-1" value="正式教育/制度化教育" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-1080" width="80" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="i9pyd7EPPGO8M3qg6k5v-2" value="家庭教育" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1169" y="600" width="89" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i9pyd7EPPGO8M3qg6k5v-3" value="非正式教育/非制度化教育" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="550" width="80" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="i9pyd7EPPGO8M3qg6k5v-4" value="教育的基本形式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1179.5" y="-30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i9pyd7EPPGO8M3qg6k5v-5" value="根据有无目的性、组织性和计划性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#9FFF75;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="-80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i9pyd7EPPGO8M3qg6k5v-6" value="职业学校教育" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="190" width="80" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="i9pyd7EPPGO8M3qg6k5v-9" value="职业培训" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="475" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i9pyd7EPPGO8M3qg6k5v-10" value="学校教育的类别" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-855" y="-30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i9pyd7EPPGO8M3qg6k5v-12" value="特殊教育" style="rounded=1;whiteSpace=wrap;html=1;direction=north;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i9pyd7EPPGO8M3qg6k5v-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i9pyd7EPPGO8M3qg6k5v-23" target="i9pyd7EPPGO8M3qg6k5v-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9pyd7EPPGO8M3qg6k5v-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i9pyd7EPPGO8M3qg6k5v-23" target="i9pyd7EPPGO8M3qg6k5v-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i9pyd7EPPGO8M3qg6k5v-23" value="教育阶段" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="1310" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="i9pyd7EPPGO8M3qg6k5v-24" value="家庭教育&lt;br&gt;&lt;br&gt;学校教育&lt;br&gt;&lt;br&gt;社会教育&lt;br&gt;&lt;br&gt;自我教育&lt;br&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="i9pyd7EPPGO8M3qg6k5v-23">
+          <mxGeometry y="50" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="i9pyd7EPPGO8M3qg6k5v-29" value="学校教育" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="1310" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="i9pyd7EPPGO8M3qg6k5v-30" value="家庭教育&lt;br&gt;&lt;br&gt;学校教育&lt;br&gt;&lt;br&gt;社会教育&lt;br&gt;&lt;br&gt;自我教育&lt;br&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="i9pyd7EPPGO8M3qg6k5v-29">
+          <mxGeometry y="50" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="i9pyd7EPPGO8M3qg6k5v-35" value="社会教育" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="1590" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="i9pyd7EPPGO8M3qg6k5v-36" value="家庭教育&lt;br&gt;&lt;br&gt;学校教育&lt;br&gt;&lt;br&gt;社会教育&lt;br&gt;&lt;br&gt;自我教育&lt;br&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="i9pyd7EPPGO8M3qg6k5v-35">
+          <mxGeometry y="50" width="170" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
