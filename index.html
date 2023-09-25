@@ -40,7 +40,7 @@
         }],
       name: "我的知识库",          //不能为空不能为nil
       logo: './resources/pic/logo/loading.gif',         //页面的LOGO
-      repo: 'https://github.com/Hanwall/get_KNOWLEDGE',     //githubURL
+      //repo: 'https://github.com/Hanwall/get_KNOWLEDGE',     //githubURL
 
       formatUpdated: '{YYYY}/{MM}/{DD}',      //我们可以通过 {docsify-updated} 变量显示文档更新日期. 并且通过 formatUpdated配置日期格式。参考 https://github.com/lukeed/tinydate#patterns
 
@@ -53,11 +53,12 @@
       // alias: {
       // '/.*/_sidebar.md': '/_sidebar.md'
       // },
+
       //subMaxLevel: 2,//最高目录等级,但是没跟他说哪个目录他怎么生成
 
       loadNavbar: '_navbar.md',
 
-      homepage: 'index.md',// README.md
+      homepage: '/initwithmarkdown/知识/index.md',// README.md
 
       notFoundPage: '_404.md',//在找不到指定页面时加载_404.md
 
@@ -242,11 +243,7 @@
       }
     }
     siteTime();
-
   </script>
-
-
-
 
   <!-- 访问量统计 -->
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
@@ -259,17 +256,13 @@
 
   <!-- 底部 上一页下一页 -->
   <script src="./resources/plugin/docsify-pagination.min.js"></script>
-
   <script src="./resources/plugin/external-script.min.js"></script>
-
   <script src="./resources/plugin/ga.min.js"></script>
 
   <!-- 字数统计 -->
   <script src="./resources/plugin/countable.min.js"></script>
 
-
   <!-- 代码高亮  https://cdn.jsdelivr.net/npm/prismjs@1/components/ -->
-
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cmake.min.js"></script>
@@ -285,10 +278,9 @@
   <!-- or use this if you are not hosting the file yourself -->
   <script src="./resources/plugin/docsify-pdf-embed.js"></script>
 
-  <!-- <nav>
-  <a href="https://hanwall.github.io/get_LIFESTYLE/">LIFESTYLE</a>
-  <a href="https://hanwall.github.io/get_WORKSTYLE/">WORKSTYLE</a>
-  </nav> -->
+  <!-- <a href="/initwithmarkdown/人生/">人生</a>
+  <a href="/initwithmarkdown/社会/">社会</a>
+  <a href="/initwithmarkdown/知识/">知识</a> -->
 
   <div id="app"></div>
 

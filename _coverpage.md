@@ -3,7 +3,6 @@
 
 <span id="sitetime"><br/>
 
-
-[GETTING STARTED](./index.md)
+[GETTING STARTED](./initwithmarkdown/知识/)
 
 ![](./resources/pic/logo/jasonzhang2.jpg)

@@ -1,6 +1,7 @@
 <!-- _navbar.md -->
 
-* 其它站点
-
-	* [LIFESTLE](https://hanwall.github.io/get_LIFESTYLE/)
-	* [WORKSTLE](https://hanwall.github.io/get_WORKSTYLE/)
+* 站点分类
+	* [@知识](/initwithmarkdown/知识/)
+	* [@人生](/initwithmarkdown/人生/)
+	* [@社会](/initwithmarkdown/社会/)
+	
